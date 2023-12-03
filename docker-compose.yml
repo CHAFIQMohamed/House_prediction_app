@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  service1:
+    image: fastapi-app1
+    ports:
+      - 8000:8000
+    networks:
+      - mynetwork
+
+  service2:
+    image: flask-app_final
+    ports :
+      - 5000:5000 
+    networks:
+      - mynetwork
+
+networks:
+  mynetwork:
+    driver: bridge

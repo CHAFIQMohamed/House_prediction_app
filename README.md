@@ -45,5 +45,5 @@ Follow these steps to run the project locally:
 
 1. Clone this repository:
    ```bash
-   git clone [Your GitHub Repository URL]
-   cd [Repository Directory]
+   git clone https://github.com/CHAFIQMohamed/House_prediction_app/
+   
